@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 25px;
+}
+
+.header{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.header img{
+    width: 169px;
+    height: 34px;
+    margin-right: 100px;
+    margin-bottom: 12px;
+}
+
+.header ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 331px;
+}
+
+.header ul li a{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);   
+    margin-top: 44px; 
+}
+
+.smallheader{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+}
+
+.smallheader input{
+    border: 0;
+    padding: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(102, 102, 102, 1);     
+}
+.smallheader img{
+    width: 14px;
+    height: 14px;
+    margin-right: 0;
+    margin-top: 18px;
+}
+
+.secondheader{
+    background-image: url(./img/slider2\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondheader h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    margin-bottom: 89px;    
+}
+
+.secondheader button{
+    width: 109px;
+    height: 55px;
+    background-color: rgba(118, 185, 0, 1);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);    
+}
+
+main{
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.first{
+    padding-top: 12px;
+}
+
+.first h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 40px;    
+}
+
+.firstwrapper{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 290px;
+    height: 302px;
+}
+
+.card h4{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;  
+    margin-top: 20px;
+    margin-bottom: 37px;  
+}
+
+.card a{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;    
+}
+
+.second{
+    display: flex;
+    background-color: rgba(255, 252, 252, 1);
+    padding-bottom: 22px;
+    margin-bottom: 7px;
+}
+
+.second img{
+    margin-right: 40px;
+}
+
+ .second h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(103, 185, 0, 1);
+    margin-top: 21px;
+    margin-bottom: 28px;     
+}
+
+.second p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);    
+}
+ .second button{
+    margin-top: 58px;
+    width: 233px;
+    height: 62px;
+    background-color: rgba(118, 185, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+}
+
+.third{
+    display: flex;
+    height: 211px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 25px;
+}
+
+.third p{
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(102, 102, 102, 1);    
+}
